@@ -1,0 +1,20 @@
+{
+    "name": "school-frontdesk",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.frontdesk",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolFrontdesk\\API\\Contracts\\SchoolFrontdeskContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "The reception desk: visitor register, pupil pickups with delegates, and incoming mail (courriers).",
+    "config": []
+}
